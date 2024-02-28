@@ -51,6 +51,24 @@
             bottom: 0;
             width: 100%;
         }
+        social-buttons {
+            text-align: center;
+            margin-top: 20px;
+      }
+
+        facebook-button, instagram-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3b5998; /* Facebook blue */
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-right: 10px;
+        }
+
+        instagram-button {
+        background-color: #e4405f; /* Instagram pink */
+        }
     </style>
 </head>
 <body>
@@ -74,10 +92,10 @@
     </section>
     <section id="contact">
     <h2>Contact</h2>
-    <p>You can contact me at munkherdenex@gmail.com</p>
-    <div class="social-buttons">
-        <a href="https://www.facebook.com/kazu.mika.1" class="facebook-button">Facebook</a>
-        <br>
+    <p>You can reach me via email at munkherdenex@gmail.com</p>
+    <div class="social-buttons" style="text-align: center; margin-top: 20px;">
+    <p>I'm also available on</p> 
+        <a href="https://www.facebook.com/kazu.mika.1" class="facebook-button">Facebook</a>    
         <a href="https://www.instagram.com/james_46663/" class="instagram-button">Instagram</a>
     </div>
 </section>
