@@ -77,7 +77,7 @@
     <p>You can contact me at munkherdenex@gmail.com</p>
     <div class="social-buttons">
         <a href="https://www.facebook.com/kazu.mika.1" class="facebook-button">Facebook</a>
-        <br></br>
+        <br>
         <a href="https://www.instagram.com/james_46663/" class="instagram-button">Instagram</a>
     </div>
 </section>
