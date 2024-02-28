@@ -1,5 +1,3 @@
-# turshilt2.github.io
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -75,11 +73,36 @@
         <p>This is a section showcasing my projects.</p>
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-        <p>You can contact me at munkherdenex@gmail.com</p>
-    </section>
+    <h2>Contact</h2>
+    <p>You can contact me at munkherdenex@gmail.com</p>
+    <div class="social-buttons">
+        <a href="https://www.facebook.com/kazu.mika.1" class="facebook-button">Facebook</a>
+        <a href="https://www.instagram.com/james_46663/" class="instagram-button">Instagram</a>
+    </div>
+</section>
+
     <footer>
         <p>&copy; 2024 My Portfolio</p>
     </footer>
 </body>
 </html>
+
+.social-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.facebook-button, .instagram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b5998; /* Facebook blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.instagram-button {
+    background-color: #e4405f; /* Instagram pink */
+}
+
