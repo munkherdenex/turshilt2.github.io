@@ -1,6 +1,5 @@
 # turshilt2.github.io
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -76,7 +75,7 @@
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <p>You can contact me at example@example.com.</p>
+        <p>You can contact me at munkherdenex@gmail.com.</p>
     </section>
     <footer>
         <p>&copy; 2024 My Portfolio</p>
