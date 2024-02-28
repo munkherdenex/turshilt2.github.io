@@ -50,7 +50,6 @@
             color: #fff;
             text-align: center;
             padding: 10px;
-            position: fixed;
             bottom: 0;
             width: 100%;
         }
@@ -67,7 +66,9 @@
     </nav>
     <section id="about">
         <h2>About Me</h2>
-        <p>This is a section about me and my skills.</p>
+        <h3>HI THERE !</h3>
+        <h3>I'm Munkh-Erdene</h3>
+        <p>Passionate and detail-oriented student working towards obtaining a Certificate in Computer Science from MUST - Mongolian University of Science and Technology. I'm someone who finds joy in the simple pleasures of life, whether it's immersing myself in the pages of a captivating book or exploring the great outdoors.</p>
     </section>
     <section id="projects">
         <h2>Projects</h2>
@@ -75,7 +76,7 @@
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <p>You can contact me at munkherdenex@gmail.com.</p>
+        <p>You can contact me at munkherdenex@gmail.com</p>
     </section>
     <footer>
         <p>&copy; 2024 My Portfolio</p>
