@@ -1,0 +1,187 @@
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+ul {
+  list-style: none;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #98AFC7;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  color: black;
+  height: 60px;
+  text: center;
+}
+
+.nav-list {
+  display: flex;
+  margin-top: 0.22rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.nav-list a:hover {
+  background: #F75D59;
+}
+
+.logo {
+  display: flex;
+}
+
+
+body {
+  background-color: #D1D0CE;
+  font-family: DotGothic16;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+p {
+  font-size: 22px;
+}
+
+
+.active {
+  background-color: #98AFC7;
+  color: white;
+}
+.page-first {
+  height: 500px;
+  background-color: #79BAEC;
+  background-image: url("https://wallpaperaccess.com/full/1719373.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.head {
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  
+  
+}
+
+#projects {
+  height: 500px;
+  background-color: black;
+  text-align: center;
+  
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width : 100%;
+  margin-left: 110px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  
+  
+}
+.page-third {
+  height: 700px;
+  background-color: black;
+}
+
+}
+@media only screen and (max-width: 600px) {
+  #profile-link  {
+    display: none;
+  }
+}
+h2 {
+  color: white;
+}
+.grid-container {
+  background-color: black;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height:60vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
+
+.contact-section-header > h3 {
+  font-size: 3rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h3 {
+    font-size: 2rem;
+  }
+}
+
+
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-family: italic;
+  font-size: 2rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+.code {
+  color: var(--main-gray);
+  transition: color 0.3s ease-out;
+}
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+.wh {
+  height: 400px;
+}
