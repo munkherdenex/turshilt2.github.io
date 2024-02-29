@@ -93,8 +93,8 @@
     <section id="contact">
     <h2>Contact</h2>
     <p>You can reach me via email at munkherdenex@gmail.com</p>
-    <div class="social-buttons" style="text-align: center; margin-top: 20px;">
-    <p>I'm also available on</p> 
+    <div class="social-buttons">
+    <p>I'm also available on</p>
         <a href="https://www.facebook.com/kazu.mika.1" class="facebook-button">Facebook</a>    
         <a href="https://www.instagram.com/james_46663/" class="instagram-button">Instagram</a>
     </div>
